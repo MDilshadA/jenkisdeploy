@@ -15,5 +15,8 @@ public class Controller {
     @GetMapping("/log")
     public String login(){
         return "login";
+    }@GetMapping("/manu")
+    public String Manu(){
+        return "home";
     }
 }
